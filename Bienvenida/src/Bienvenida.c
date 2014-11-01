@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : Holash.c
+ Name        : Bienvenida.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -10,16 +10,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <commons/config.h>
 
-#define CONF "/home/utnso/Nuevito/Holash/Debug/conf.txt"
-
-
-int main(int argc, char *argv[])
-{
-	printf("que haceee!!!!");
-
-
-
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
